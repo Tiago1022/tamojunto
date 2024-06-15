@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Projeto Tamo Junto</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div id="spinner" class="show position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div class="container-fluid bg-dark py-2 d-none d-md-flex">
+            <div class="container">
+                <div class="d-flex justify-content-between topbar">
+                    <div class="top-info">
+                        <small class="me-3 text-white-50"><a href="service.html#doacao"><i class="fas fa-donate me-2 text-secondary"></i></a>Faça sua Doação</small>
+                        <small class="me-3 text-white-50"><a href="#"><i class=""></i></a>Projeto Tamo Junto</small>
+                    </div>
+                    <div id="note" class="text-secondary d-none d-xl-flex"><small>Criado com o propósito de fazer o bem! </small></div>
+                    <div class="top-link">
+                        
+                        <a href="https://www.facebook.com/projetotamojuntoo"  target="_blank" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-facebook-f text-primary"></i></a>
+                        <!-- <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-twitter text-primary"></i></a> -->
+                        <a href="https://www.instagram.com/projetotamojuntoo/" target="_blank" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i class="fab fa-instagram text-primary"></i></a>
+                        <a href="https://wa.me/5581999105989" target="_blank" class="bg-light nav-fill btn btn-sm-square rounded-circle me-0"><i class="fab fa-whatsapp text-primary"></i></a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+        <!-- Navbar Start -->
+        <div class="container-fluid bg-primary">
+            <div class="container">
+                <nav class="navbar navbar-dark navbar-expand-lg py-0">
+                    <a href="index.html" class="navbar-brand">
+                        <h1 class="text-white fw-bold d-block">Projeto<span class="text-secondary">TamoJunto</span> </h1>
+                    </a>
+                    <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse bg-transparent" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto mx-xl-auto p-0">
+                            <a href="index.html" class="nav-item nav-link active text-secondary">Inicio</a>
+                            <a href="about.html" class="nav-item nav-link">Sobre</a>
+                            <a href="service.html" class="nav-item nav-link">Ajude</a>
+                            <a href="project.html" class="nav-item nav-link">Conheça</a>
+                          <!--   <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                               <div class="dropdown-menu rounded">
+                                    <a href="blog.html" class="dropdown-item">Our Blog</a>
+                                    <a href="team.html" class="dropdown-item">Our Team</a>
+                                    <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                    <a href="404.html" class="dropdown-item">404 Page</a>
+                                </div> 
+                            </div>-->
+                            <a href="contact.html" class="nav-item nav-link">Contato</a>
+                        </div>
+                    </div>
+                    <div class="d-none d-xl-flex flex-shirink-0">
+                        <div id="phone-tada" class="d-flex align-items-center justify-content-center me-4">
+                            <a href="https://wa.me/5581999105989" target="_blank" class="position-relative animated tada infinite">
+                                <i class="fa fa-phone-alt text-white fa-2x"></i>
+                                <div class="position-absolute" style="top: -7px; left: 20px;">
+                                    <span><i class="fa fa-comment-dots text-secondary"></i></span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="d-flex flex-column pe-4 border-end">
+                            <span class="text-white-50"></span>
+                            <span class="text-secondary">Fale conosco:(81)99910-5989</span>
+                        </div>
+                        <!--<div class="d-flex align-items-center justify-content-center ms-4 ">
+                            <a href="#"><i class="bi bi-search text-white fa-2x"></i> </a>
+                        </div> -->
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+        <!-- Carousel Start -->
+        <div class="container-fluid px-0">
+            <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img src="img/carousel-1.jpg" class="img-fluid" alt="First slide">
+                        <div class="carousel-caption">
+                            <div class="container carousel-content">
+                                <h2 class="text-secondary h2 animated fadeInUp">O Tamo Junto</h2>
+                                <h3 class="text-white display-1 mb-4 animated fadeInRight">Foi criado com propósito de fazer o bem!</h3>
+                                <p class="mb-4 text-white fs-5 animated fadeInDown">Movidos pelo amor ao próximo.</p>
+                                <a href="about.html" class="me-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn1 animated fadeInLeft">Nossa história</button></a>
+                                <a href="contact.html" class="ms-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Fale conosco</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/carousel-2.jpg" class="img-fluid" alt="Second slide">
+                        <div class="carousel-caption">
+                            <div class="container carousel-content">
+                                
+                                <h1 class="text-white display-1 mb-4 animated fadeInLeft">Nascemos para transformar vidas e espalhar solidariedade!</h1>
+                                
+                                <a href="https://www.instagram.com/projetotamojuntoo/" target="_blank" class="ms-2"><button type="button" class="px-4 py-sm-3 px-sm-5 btn btn-primary rounded-pill carousel-content-btn2 animated fadeInRight">Saiba mais</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- Fact Start -->
+        <div class="container-fluid bg-secondary py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 wow fadeIn" data-wow-delay=".1s">
+                        <div class="d-flex counter">
+                            <h1 class="me-3 text-primary counter-value">72</h1>
+                            <h5 class="text-white mt-1">Crianças impactadas</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 wow fadeIn" data-wow-delay=".3s">
+                        <div class="d-flex counter">
+                            <h1 class="me-3 text-primary counter-value">72</h1>
+                            <h5 class="text-white mt-1">Cestas bassicas, entregues todos os meses desde XXXX</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 wow fadeIn" data-wow-delay=".5s">
+                        <div class="d-flex counter">
+                            <h1 class="me-3 text-primary counter-value">72</h1>
+                            <h5 class="text-white mt-1">Familias atendidas</h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 wow fadeIn" data-wow-delay=".7s">
+                        <div class="d-flex counter">
+                            <h1 class="me-3 text-primary counter-value">5</h1>
+                            <h5 class="text-white mt-1">Projetos na comunidade</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fact End -->
+
+
+        <!-- About Start -->
+        <div class="container-fluid py-5 my-5">
+            <div class="container pt-5">
+                <div class="row g-5">
+                    <div class="col-lg-5 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".3s">
+                        <div class="h-100 position-relative">
+                            <img src="img/about-1.jpg" class="img-fluid w-75 rounded" alt="" style="margin-bottom: 25%;">
+                            <div class="position-absolute w-75" style="top: 25%; left: 25%;">
+                                <img src="img/about-2.jpg" class="img-fluid w-100 rounded" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".5s">
+                        <h2 class="text-primary">O Tamo Junto</h2>
+                        <h1 class="mb-4">Criado com o propósito de fazer o bem!</h1>
+                        <p>O Projeto Tamo Junto é mais que uma iniciativa social; é um compromisso com o bem-estar 
+                            e o desenvolvimento integral das pessoas que servimos. Nossa missão é clara: 
+                            promover educação, esporte e lazer como ferramentas de transformação,
+                             buscando um futuro mais justo e igualitário para todos. </p>
+                        <p class="mb-4">  Nosso sonho vai além do presente, vislumbrando uma expansão que alcance pessoas de todas as idades,
+                             fortalecendo os laços e impactando positivamente vidas. 
+                             Guiados por valores fundamentais como amor, solidariedade e esperança, cada passo que damos reflete nossa visão de um mundo melhor, 
+                             nde cada indivíduo possa florescer e contribuir para uma sociedade mais compassiva e acolhedora.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+      <!-- Services Start -->
+<div class="container-fluid services py-5 my-5">
+    <div class="container py-5">
+        <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+            <h2 class="text-primary"> Principios fundamentais </h2>
+            <h1>Conheça os alicerces que sustentam nossa missão: os valores que nos inspiram a cada passo na jornada do Projeto Tamo Junto.</h1>
+        </div>
+        <div class="row g-5 services-inner">
+            <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                <div class="services-item bg-light">
+                    <div class="p-4 text-center services-content">
+                        <div class="services-content-icon">
+                            <i class="fa fa-bullseye fa-7x mb-4 text-primary"></i>
+                            <h4 class="mb-3">Missão</h4>
+                            <p class="mb-4">Promover o bem-estar e o desenvolvimento das crianças através da educação,
+                                 esporte e lazer, inspirando e capacitando futuros cidadãos para construir uma sociedade mais justa e solidária, 
+                                 seguindo os ensinamentos cristãos de amor, respeito e solidariedade.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
+                <div class="services-item bg-light">
+                    <div class="p-4 text-center services-content">
+                        <div class="services-content-icon">
+                            <i class="fa fa-eye fa-7x mb-4 text-primary"></i>
+                            <h4 class="mb-3">Visão</h4>
+                            <p class="mb-4">Ser reconhecido como um projeto transformador que impacta positivamente a vida das crianças e suas comunidades,
+                                 expandindo nosso alcance para incluir pessoas de todas as idades, 
+                                 sempre fundamentado nos princípios cristãos e no compromisso de fazer o bem.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                <div class="services-item bg-light">
+                    <div class="p-4 text-center services-content">
+                        <div class="services-content-icon">
+                            <i class="fa fa-handshake fa-7x mb-4 text-primary"></i>
+                            <h4 class="mb-3">Valores</h4>
+                            <p class="mb-4">Nossos valores são inspirados nos ensinamentos cristãos, refletindo nosso compromisso com o amor ao próximo, 
+                                solidariedade, respeito, integridade, fé e esperança. Estamos dedicados a transformar vidas, 
+                                guiados por princípios éticos e pela convicção de um futuro melhor para todos.</p>
+                             
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        <!-- Team Start -->
+
+
+               <!-- Project Start -->
+               <div class="container-fluid project py-5 my-5">
+                <div class="container py-5">
+                    <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                        <h2 class="text-primary">Impacto do Projeto</h2>
+                        <h1>Descubra como o Projeto Tamo Junto tem impactado positivamente a comunidade</h1>
+                    </div>
+                    <div class="row g-5">
+                        <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                            <div class="project-item">
+                                <div class="project-img">
+                                    <img src="img/project-1.jpg" class="img-fluid w-100 rounded" alt="">
+                                    <div class="project-content">
+                                        <a href="https://www.instagram.com/p/CXoYYpylnDs/ "target="_blank" class="text-center">
+                                            <h4 class="text-secondary">Bazar</h4>
+                                            <p class="m-0 text-white">Sopão solidário</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
+                            <div class="project-item">
+                                <div class="project-img">
+                                    <img src="img/project-2.jpg" class="img-fluid w-100 rounded" alt="">
+                                    <div class="project-content">
+                                        <a href="https://www.instagram.com/p/C2r-6JgOKXc/?img_index=1" target="_blank" class="text-center">
+                                            <h4 class="text-secondary">Conversa</h4>
+                                            <p class="m-0 text-white">Levando um pouco </br>de conhecimento</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                            <div class="project-item">
+                                <div class="project-img">
+                                    <img src="img/project-3.jpg" class="img-fluid w-100 rounded" alt="">
+                                    <div class="project-content">
+                                        <a href="https://www.instagram.com/p/Cbm9UsLuymH/" target="_blank" class="text-center">
+                                            <h4 class="text-secondary">Treino</h4>
+                                            <p class="m-0 text-white">Aula de futebol</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                            <div class="project-item">
+                                <div class="project-img">
+                                    <img src="img/project-4.jpg" class="img-fluid w-100 rounded" alt="">
+                                    <div class="project-content">
+                                        <a href="https://www.instagram.com/p/C0AmR3-uDJr/?img_index=3" target="_blank" class="text-center">
+                                            <h4 class="text-secondary">Agradecer</h4>
+                                            <p class="m-0 text-white">Agrandencendo a Deus</br>pelas conquistas</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
+                            <div class="project-item">
+                                <div class="project-img">
+                                    <img src="img/project-5.jpg" class="img-fluid w-100 rounded" alt="">
+                                    <div class="project-content">
+                                        <a href="https://www.instagram.com/p/C2AEi4eu2ej/?img_index=1" target="_blank" class="text-center">
+                                            <h4 class="text-secondary">Treino</h4>
+                                            <p class="m-0 text-white">Sempre com palavras </br> motivadoras</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                            <div class="project-item">
+                                <div class="project-img">
+                                    <img src="img/project-6.jpg" class="img-fluid w-100 rounded" alt="">
+                                    <div class="project-content">
+                                        <a href="https://www.instagram.com/p/CJOFywDFmMs/?img_index=1" target="_blank" class="text-center">
+                                            <h4 class="text-secondary">Ação social</h4>
+                                            <p class="m-0 text-white">Entregando cestas básicas</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Project End -->
+
+        <!-- Blog Start -->
+      <!--  <div class="container-fluid blog py-5 mb-5">
+            <div class="container">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    <h5 class="text-primary">Our Blog</h5>
+                    <h1>Latest Blog & News</h1>
+                </div>
+                <div class="row g-5 justify-content-center">
+                    <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".3s">
+                        <div class="blog-item position-relative bg-light rounded">
+                            <img src="img/blog-1.jpg" class="img-fluid w-100 rounded-top" alt="">
+                            <span class="position-absolute px-4 py-3 bg-primary text-white rounded" style="top: -28px; right: 20px;">Reforço Escolar</span>
+                            <div class="blog-btn d-flex justify-content-between position-relative px-3" style="margin-top: -75px;">
+                                <div class="blog-icon btn btn-secondary px-3 rounded-pill my-auto">
+                                    <a href="https://www.instagram.com/p/C7u_BJ5Oj1B/" target="_blank" class="btn text-white">Saiba mais</a>
+                                </div>
+                                <div class="blog-btn-icon btn btn-secondary px-4 py-3 rounded-pill ">
+                                    <div class="blog-icon-1">
+                                        <p class="text-white px-2">Share<i class="fa fa-arrow-right ms-3"></i></p>
+                                    </div>
+                                    <div class="blog-icon-2">
+                                        <a href="" class="btn me-1"><i class="fab fa-facebook-f text-white"></i></a>
+                                        <a href="" class="btn me-1"><i class="fab fa-twitter text-white"></i></a>
+                                        <a href="" class="btn me-1"><i class="fab fa-instagram text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog-content text-center position-relative px-3" style="margin-top: -25px;">
+                                <img src="img/admin.jpg" class="img-fluid rounded-circle border border-4 border-white mb-3" alt="">
+                                <h5 class="">By Daniel Martin</h5>
+                                <span class="text-secondary">2 de Junho 2024</span>
+                                <p class="py-2">Mais uma novidade chegando,como é bom fazer da história de cada criança. Venha ser um colaborador também.
+                                </p>
+                            </div>
+                            <div class="blog-coment d-flex justify-content-between px-4 py-2 border bg-primary rounded-bottom">
+                                <a href="" class="text-white"><small><i class="fas fa-share me-2 text-secondary"></i>5324 Share</small></a>
+                                <a href="" class="text-white"><small><i class="fa fa-comments me-2 text-secondary"></i>5 Comments</small></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".5s">
+                        <div class="blog-item position-relative bg-light rounded">
+                            <img src="img/blog-2.jpg" class="img-fluid w-100 rounded-top" alt="">
+                            <span class="position-absolute px-4 py-3 bg-primary text-white rounded" style="top: -28px; right: 20px;">Development</span>
+                            <div class="blog-btn d-flex justify-content-between position-relative px-3" style="margin-top: -75px;">
+                                <div class="blog-icon btn btn-secondary px-3 rounded-pill my-auto">
+                                    <a href="" class="btn text-white ">Read More</a>
+                                </div>
+                                <div class="blog-btn-icon btn btn-secondary px-4 py-3 rounded-pill ">
+                                    <div class="blog-icon-1">
+                                        <p class="text-white px-2">Share<i class="fa fa-arrow-right ms-3"></i></p>
+                                    </div>
+                                    <div class="blog-icon-2">
+                                        <a href="" class="btn me-1"><i class="fab fa-facebook-f text-white"></i></a>
+                                        <a href="" class="btn me-1"><i class="fab fa-twitter text-white"></i></a>
+                                        <a href="" class="btn me-1"><i class="fab fa-instagram text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog-content text-center position-relative px-3" style="margin-top: -25px;">
+                                <img src="img/admin.jpg" class="img-fluid rounded-circle border border-4 border-white mb-3" alt="">
+                                <h5 class="">By Daniel Martin</h5>
+                                <span class="text-secondary">23 April 2023</span>
+                                <p class="py-2">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt libero sit amet</p>
+                            </div>
+                            <div class="blog-coment d-flex justify-content-between px-4 py-2 border bg-primary rounded-bottom">
+                                <a href="" class="text-white"><small><i class="fas fa-share me-2 text-secondary"></i>5324 Share</small></a>
+                                <a href="" class="text-white"><small><i class="fa fa-comments me-2 text-secondary"></i>5 Comments</small></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".7s">
+                        <div class="blog-item position-relative bg-light rounded">
+                            <img src="img/blog-3.jpg" class="img-fluid w-100 rounded-top" alt="">
+                            <span class="position-absolute px-4 py-3 bg-primary text-white rounded" style="top: -28px; right: 20px;">Mobile App</span>
+                            <div class="blog-btn d-flex justify-content-between position-relative px-3" style="margin-top: -75px;">
+                                <div class="blog-icon btn btn-secondary px-3 rounded-pill my-auto">
+                                    <a href="" class="btn text-white ">Read More</a>
+                                </div>
+                                <div class="blog-btn-icon btn btn-secondary px-4 py-3 rounded-pill ">
+                                    <div class="blog-icon-1">
+                                        <p class="text-white px-2">Share<i class="fa fa-arrow-right ms-3"></i></p>
+                                    </div>
+                                    <div class="blog-icon-2">
+                                        <a href="" class="btn me-1"><i class="fab fa-facebook-f text-white"></i></a>
+                                        <a href="" class="btn me-1"><i class="fab fa-twitter text-white"></i></a>
+                                        <a href="" class="btn me-1"><i class="fab fa-instagram text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog-content text-center position-relative px-3" style="margin-top: -25px;">
+                                <img src="img/admin.jpg" class="img-fluid rounded-circle border border-4 border-white mb-3" alt="">
+                                <h5 class="">By Daniel Martin</h5>
+                                <span class="text-secondary">30 jan 2023</span>
+                                <p class="py-2">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt libero sit amet</p>
+                            </div>
+                            <div class="blog-coments d-flex justify-content-between px-4 py-2 border bg-primary rounded-bottom">
+                                <a href="" class="text-white"><small><i class="fas fa-share me-2 text-secondary"></i>5324 Share</small></a>
+                                <a href="" class="text-white"><small><i class="fa fa-comments me-2 text-secondary"></i>5 Comments</small></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     Blog End -->
+
+
+         <!-- Team Start -->
+         <div class="container-fluid pb-5 mb-5 team">
+            <div class="container pb-5">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    <h2 class="text-primary">Nosso time</h2>
+                    <h1>Conheça o coração pulsante por trás do Projeto Tamo Junto: 
+                        um time unido pelo compromisso de fazer a diferença e inspirar mudanças positivas.</h1>
+                </div>
+                <div class="owl-carousel team-carousel wow fadeIn" data-wow-delay=".5s">
+                    <div class="rounded team-item">
+                        <div class="team-content">
+                            <div class="team-img-icon">
+                                <div class="team-img rounded-circle">
+                                    <img src="img/team-2.jpg" class="img-fluid w-100 rounded-circle" alt="">
+                                </div>
+                                <div class="team-name text-center py-3">
+                                    <h4 class="">Jeremias Batista</h4>
+                                    <p class="m-0">Presidente</p>
+                                </div>
+                                <div class="team-icon d-flex justify-content-center pb-4">
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rounded team-item">
+                        <div class="team-content">
+                            <div class="team-img-icon">
+                                <div class="team-img rounded-circle">
+                                    <img src="img/team-3.jpg" class="img-fluid w-100 rounded-circle" alt="">
+                                </div>
+                                <div class="team-name text-center py-3">
+                                    <h4 class="">Raquel Belarmina</h4>
+                                    <p class="m-0">Vice-Presidente</p>
+                                </div>
+                                <div class="team-icon d-flex justify-content-center pb-4">
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rounded team-item">
+                        <div class="team-content">
+                            <div class="team-img-icon">
+                                <div class="team-img rounded-circle">
+                                    <img src="img/team-3.jpg" class="img-fluid w-100 rounded-circle" alt="">
+                                </div>
+                                <div class="team-name text-center py-3">
+                                    <h4 class="">Isabele Cristina</h4>
+                                    <p class="m-0">Secretaria</p>
+                                </div>
+                                <div class="team-icon d-flex justify-content-center pb-4">
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rounded team-item">
+                        <div class="team-content">
+                            <div class="team-img-icon">
+                                <div class="team-img rounded-circle">
+                                    <img src="img/team-1.jpg" class="img-fluid w-100 rounded-circle" alt="">
+                                </div>
+                                <div class="team-name text-center py-3">
+                                    <h4 class="">Emillayne Fernanda</h4>
+                                    <p class="m-0">Secretaria AD</p>
+                                </div>
+                                <div class="team-icon d-flex justify-content-center pb-4">
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rounded team-item">
+                        <div class="team-content">
+                            <div class="team-img-icon">
+                                <div class="team-img rounded-circle">
+                                    <img src="img/team-2.jpg" class="img-fluid w-100 rounded-circle" alt="">
+                                </div>
+                                <div class="team-name text-center py-3">
+                                    <h4 class="">Israel Feijó</h4>
+                                    <p class="m-0">Presidente da Assembleia</p>
+                                </div>
+                                <div class="team-icon d-flex justify-content-center pb-4">
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rounded team-item">
+                        <div class="team-content">
+                            <div class="team-img-icon">
+                                <div class="team-img rounded-circle">
+                                    <img src="img/team-4.jpg" class="img-fluid w-100 rounded-circle" alt="">
+                                </div>
+                                <div class="team-name text-center py-3">
+                                    <h4 class="">Geovane Gomes</h4>
+                                    <p class="m-0">Tesoureiro</p>
+                                </div>
+                                <div class="team-icon d-flex justify-content-center pb-4">
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rounded team-item">
+                        <div class="team-content">
+                            <div class="team-img-icon">
+                                <div class="team-img rounded-circle">
+                                    <img src="img/team-2.jpg" class="img-fluid w-100 rounded-circle" alt="">
+                                </div>
+                                <div class="team-name text-center py-3">
+                                    <h4 class="">George Antônio</h4>
+                                    <p class="m-0">Coordenador</p>
+                                </div>
+                                <div class="team-icon d-flex justify-content-center pb-4">
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rounded team-item">
+                        <div class="team-content">
+                            <div class="team-img-icon">
+                                <div class="team-img rounded-circle">
+                                    <img src="img/team-3.jpg" class="img-fluid w-100 rounded-circle" alt="">
+                                </div>
+                                <div class="team-name text-center py-3">
+                                    <h4 class="">Simone Maria</h4>
+                                    <p class="m-0">Professora de Reforço</p>
+                                </div>
+                                <div class="team-icon d-flex justify-content-center pb-4">
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rounded team-item">
+                        <div class="team-content">
+                            <div class="team-img-icon">
+                                <div class="team-img rounded-circle">
+                                    <img src="img/team-4.jpg" class="img-fluid w-100 rounded-circle" alt="">
+                                </div>
+                                <div class="team-name text-center py-3">
+                                    <h4 class="">José Wellington</h4>
+                                    <p class="m-0">Professor de Futebol</p>
+                                </div>
+                                <div class="team-icon d-flex justify-content-center pb-4">
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rounded team-item">
+                        <div class="team-content">
+                            <div class="team-img-icon">
+                                <div class="team-img rounded-circle">
+                                    <img src="img/team-4.jpg" class="img-fluid w-100 rounded-circle" alt="">
+                                </div>
+                                <div class="team-name text-center py-3">
+                                    <h4 class="">Andrelino Barboza</h4>
+                                    <p class="m-0">Professor de Música</p>
+                                </div>
+                                <div class="team-icon d-flex justify-content-center pb-4">
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rounded team-item">
+                        <div class="team-content">
+                            <div class="team-img-icon">
+                                <div class="team-img rounded-circle">
+                                    <img src="img/team-2.jpg" class="img-fluid w-100 rounded-circle" alt="">
+                                </div>
+                                <div class="team-name text-center py-3">
+                                    <h4 class="">Jonas José</h4>
+                                    <p class="m-0">Limpeza</p>
+                                </div>
+                                <div class="team-icon d-flex justify-content-center pb-4">
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rounded team-item">
+                        <div class="team-content">
+                            <div class="team-img-icon">
+                                <div class="team-img rounded-circle">
+                                    <img src="img/team-1.jpg" class="img-fluid w-100 rounded-circle" alt="">
+                                </div>
+                                <div class="team-name text-center py-3">
+                                    <h4 class="">Arlete Maria</h4>
+                                    <p class="m-0">Cozinheira</p>
+                                </div>
+                                <div class="team-icon d-flex justify-content-center pb-4">
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square btn-secondary text-white rounded-circle m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+        <!-- Team End -->
+        <!-- Testimonial Start -->
+        <div class="container-fluid testimonial py-5 mb-5">
+            <div class="container">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    <h2 class="text-primary">Depoimentos</h2>
+                    <h1>"Leia os depoimentos emocionantes e inspiradores de quem foi impactado pelo Projeto Tamo Junto!</h1>
+                </div>
+                <div class="owl-carousel testimonial-carousel wow fadeIn" data-wow-delay=".5s">
+                    <div class="testimonial-item border p-4">
+                        <div class="d-flex align-items-center">
+                            <div class="">
+                                <img src="img/testimonial-1.jpg" alt="">
+                            </div>
+                            <div class="ms-4">
+                                <h4 class="text-secondary">Nome1</h4>
+                                <p class="m-0 pb-3">Viculo</p>
+                                <div class="d-flex pe-5">
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border-top mt-4 pt-3">
+                            <p class="mb-0">Minha vida mudou com o Projeto Tamo Junto. Meus filhos encontraram um espaço seguro e educativo, e eu recebi apoio emocional. Somos gratos por essa transformação!</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item border p-4">
+                        <div class=" d-flex align-items-center">
+                            <div class="">
+                                <img src="img/testimonial-2.jpg" alt="">
+                            </div>
+                            <div class="ms-4">
+                                <h4 class="text-secondary">Nome2</h4>
+                                <p class="m-0 pb-3">Aluno</p>
+                                <div class="d-flex pe-5">
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border-top mt-4 pt-3">
+                            <p class="mb-0">Eu adoro o Projeto Tamo Junto! Fiz novos amigos e aprendi muitas coisas legais. As atividades são divertidas e sempre me sinto feliz lá. Obrigado por tudo!</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item border p-4">
+                        <div class=" d-flex align-items-center">
+                            <div class="">
+                                <img src="img/testimonial-3.jpg" alt="">
+                            </div>
+                            <div class="ms-4">
+                                <h4 class="text-secondary">Nome3</h4>
+                                <p class="m-0 pb-3">Voluntário</p>
+                                <div class="d-flex pe-5">
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border-top mt-4 pt-3">
+                            <p class="mb-0">Ser voluntário no Projeto Tamo Junto tem sido uma experiência incrível. Ver as crianças crescerem e se desenvolverem graças ao nosso apoio é extremamente gratificante.</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item border p-4">
+                        <div class=" d-flex align-items-center">
+                            <div class="">
+                                <img src="img/testimonial-4.jpg" alt="">
+                            </div>
+                            <div class="ms-4">
+                                <h4 class="text-secondary">Nome4</h4>
+                                <p class="m-0 pb-3">Aluno</p>
+                                <div class="d-flex pe-5">
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                    <i class="fas fa-star me-1 text-primary"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border-top mt-4 pt-3">
+                            <p class="mb-0">Participar do Projeto Tamo Junto mudou minha vida. Aqui, aprendo coisas novas todos os dias e faço muitos amigos. Sou muito feliz por fazer parte dessa família..</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Testimonial End -->
+
+
+          <!-- Contact Start -->
+          <div class="container-fluid py-5 mt-5">
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    <h2 class="text-primary">Contato</h2>
+                    <p class="mb-2">Estamos aqui para ajudar e responder às suas perguntas. Entre em contato conosco por qualquer um dos canais abaixo:</p>
+                </div>
+                <div class="contact-detail position-relative p-5">
+                    <div class="row g-5 mb-5 justify-content-center">
+                        <div class="col-xl-4 col-lg-6 wow fadeIn" data-wow-delay=".3s">
+                            <div class="d-flex bg-light p-3 rounded">
+                                <div class="flex-shrink-0 btn-square bg-secondary rounded-circle" style="width: 64px; height: 64px;">
+                                    <i class="fas fa-map-marker-alt text-white"></i>
+                                </div>
+                                <div class="ms-3">
+                                    <h4 class="text-primary">Endereço</h4>
+                                    <a href="https://maps.app.goo.gl/uj8TT4ftbeR34pYE6" target="_blank" class="h5">Av Luiza de Medeiros N° 21 - Tabatinga - Camaragibe - PE</a>                              
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 wow fadeIn" data-wow-delay=".5s">
+                            <div class="d-flex bg-light p-3 rounded">
+                                <div class="flex-shrink-0 btn-square bg-secondary rounded-circle" style="width: 64px; height: 64px;">
+                                    <i class="fab fa-whatsapp text-white"></i>
+                                </div>
+                                <div class="ms-3">
+                                    <h4 class="text-primary">Telefone</h4>
+                                    <a class="h5" href="https://wa.me/5581999105989" target="_blank">+55 8199910-5989 </br></br></br></br></a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="col-xl-4 col-lg-6 wow fadeIn" data-wow-delay=".7s">
+                            <div class="d-flex bg-light p-3 rounded">
+                                <div class="flex-shrink-0 btn-square bg-secondary rounded-circle d-flex align-items-center justify-content-center" style="width: 64px; height: 64px;">
+                                    <i class="fa fa-envelope text-white"></i>
+                                </div>
+                                <div class="ms-3">
+                                    <h4 class="text-primary">Email</h4>
+                                    <a href="mailto:projetotamojunto.tabatinga@gmail.com" target="_blank" class="h5 text-break">projetotamojunto.tabatinga@gmail.com </br></br></br></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row g-5">
+                        <div class="col-lg-6 wow fadeIn" data-wow-delay=".3s">
+                            <div class="p-5 h-100 rounded contact-map">
+                                <iframe class="rounded w-100 h-100" src="https://www.google.com/maps/embed?pb=!4v1718382858284!6m8!1m7!1sg8dA9t3uQrbtEaVtexymAg!2m2!1d-7.997826576137555!2d-34.98101113410396!3f220.58963090066837!4f7.224232763809923!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 wow fadeIn" data-wow-delay=".5s">
+                            <div class="p-5 rounded contact-form">
+                                <div class="mb-4">
+                                    <input type="text" class="form-control border-0 py-3" placeholder="Nome">
+                                </div>
+                                <div class="mb-4">
+                                    <input type="email" class="form-control border-0 py-3" placeholder="Email">
+                                </div>
+                                <div class="mb-4">
+                                    <input type="text" class="form-control border-0 py-3" placeholder="Telefone">
+                                </div>
+                                <div class="mb-4">
+                                    <textarea class="w-100 form-control border-0 py-3" rows="6" cols="10" placeholder="Mensagem"></textarea>
+                                </div>
+                                <div class="text-start">
+                                    <button class="btn bg-primary text-white py-3 px-5" type="button">Enviar Mensagem</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <!-- Contact End -->
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer bg-dark wow fadeIn" data-wow-delay=".3s">
+            <div class="container pt-5 pb-4">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <a href="index.html">
+                            <h1 class="text-white fw-bold d-block">Tamo<span class="text-secondary">Junto</span> </h1>
+                        </a>
+                        <p class="mt-4 text-light">Fundado com o propósito de fazer o bem, o Projeto Tamo Junto se dedica a transformar vidas e espalhar solidariedade</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <a href="#" class="h3 text-secondary">Links</a>
+                        <div class="mt-4 d-flex flex-column short-link">
+                            <a href="about.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Sobre</a>
+                            <a href="contact.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Contato</a>
+                            <a href="service.html#doacao" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Doar</a>
+                            <a href="project.html" class="mb-2 text-white"><i class="fas fa-angle-right text-secondary me-2"></i>Conheça</a>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <a href="#" class="h3 text-secondary">Redes Sociais</a>
+                        <div class="mt-4 d-flex flex-column help-link">
+                            <a href="https://www.facebook.com/projetotamojuntoo" target="_blank" class="btn-light nav-fill btn d-flex align-items-center mb-2">
+                                <i class="fab fa-facebook-f text-primary me-2"></i>
+                                <span>Facebook</span>
+                            </a>
+                            <a href="https://www.instagram.com/projetotamojuntoo/" target="_blank" class="btn-light nav-fill btn d-flex align-items-center mb-2">
+                                <i class="fab fa-instagram text-primary me-2"></i>
+                                <span>Instagram</span>
+                            </a>
+                            <a href="https://wa.me/5581999105989" target="_blank" class="btn-light nav-fill btn d-flex align-items-center">
+                                <i class="fab fa-whatsapp text-primary me-2"></i>
+                                <span>WhatsApp</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <a href="#" class="h3 text-secondary">Contatos</a>
+                        <div class="text-white mt-4 d-flex flex-column contact-link">
+                            <a href="#" class="pb-3 text-light border-bottom border-primary"><i class="fas fa-map-marker-alt text-secondary me-2"></i> Av. Luiza de Medeiros 21 - Tabatinga - Camaragibe - PE</a>
+                            <a href="https://wa.me/5581999105989" class="py-3 text-light border-bottom border-primary"><i class="fas fa-phone-alt text-secondary me-2"></i> +55 (81)99910-5989</a>
+                            <a href="#" class="py-3 text-light border-bottom border-primary"><i class="fas fa-envelope text-secondary me-2"></i> projetotamojunto.tabatinga@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+                <hr class="text-light mt-5 mb-4">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start">
+                        <span class="text-light"><a href="#" class="text-secondary"><i class="fas fa-copyright text-secondary me-2"></i>TamoJunto</a>, All right reserved.</span>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        <span class="text-light">Designed By<a href="https://tiago1022.github.io/techf5/" target="_blank" class="text-secondary"> - TechF5 - </a>Intagram <a href="https://www.instagram.com/techf5/" target="_blank">@TechF5</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-secondary btn-square rounded-circle back-to-top"><i class="fa fa-arrow-up text-white"></i></a>
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
